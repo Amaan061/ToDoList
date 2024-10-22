@@ -25,3 +25,6 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/todolist.git
+
+### Contributing
+- Contributions are welcome! Feel free to submit a pull request or open an issue for improvements.
