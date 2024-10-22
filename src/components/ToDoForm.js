@@ -7,9 +7,10 @@ const ToDoForm = ({ addTodo }) => {
     e.preventDefault();
     if (value) {
       addTodo(value);
-      setValue("");  // Clear the input field after adding the task
+      setValue("");  
     }
   };
+  
 
   return (
     <form className="TodoForm" onSubmit={handleSubmit}>

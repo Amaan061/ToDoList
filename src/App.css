@@ -1,11 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
-  background-color: #f4f4f4;
+  background-color: #8758ff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+h1 {
+  color: #fff;
+  margin-bottom: 0.9rem;
+  font-size: 1.75rem;
+
+}
+
+.TodoWrapper {
+  background: #1A1A40;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
 }
 
 .TodoForm {
@@ -15,10 +32,13 @@
 }
 
 .todo-input {
+  
   padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
+  margin-bottom: 11px;
+  border: 1px solid;
   border-radius: 5px;
+  background-color: #1A1A40;
+  color: white;
 }
 
 .todo-btn {
@@ -38,11 +58,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color:#8758ff ;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
   width: 300px;
+  color: white;
+  
 }
 
 .Todo p {
@@ -53,3 +75,9 @@
   display: flex;
   align-items: center;
 }
+
+.Todo:hover {
+  transform: translateY(-0.5px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+}
+

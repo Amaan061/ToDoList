@@ -6,7 +6,7 @@ const ToDo = ({ task, deleteTodo }) => {
     <div className="Todo">
       <p>{task.task}</p>
       <div>
-        <FaTrash onClick={() => deleteTodo(task.id)} style={{ cursor: "pointer" }} />
+        <FaTrash onClick={() => deleteTodo(task.id)} style={{ cursor: "pointer", color: "white"}} />
       </div>
     </div>
   );
